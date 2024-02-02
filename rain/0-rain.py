@@ -10,10 +10,10 @@ def rain(walls):
     Calculate the total amount of rainwater retained between walls.
 
     Args:
-    walls (List[int]): A list of non-negative integers representing wall heights.
+        walls (List[int]): A list of non-negative integers representing wall heights.
 
     Returns:
-    int: Total amount of rainwater retained.
+        int: Total amount of rainwater retained.
     """
     if not walls:
         return 0
@@ -38,6 +38,7 @@ def rain(walls):
         trapped_water += max(0, min(left_max[i], right_max[i]) - walls[i])
 
     return trapped_water
+
 
 if __name__ == "__main__":
     # Example usage:
