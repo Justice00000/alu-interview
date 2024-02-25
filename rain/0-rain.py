@@ -1,9 +1,7 @@
 #!/usr/bin/python3
+"""rain_trap.py - A script to calculate the amount of rainwater retained
+between walls represented by a list of non-negative integers."""
 
-"""
-rain_trap.py - A script to calculate the amount of rainwater retained
-between walls represented by a list of non-negative integers.
-"""
 
 def rain(walls):
     """Rain function"""
